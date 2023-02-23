@@ -23,6 +23,8 @@ class HomeController extends Controller
      */
     public function index()
     {
+        $actName = 'visit index';
+        
         return view('home');
     }
 }
