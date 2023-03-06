@@ -1,0 +1,47 @@
+#dropdownMenuButton {
+    color      : rgba(0, 0, 0, .55);
+    font-weight: bold;
+    font-size  : 14px;
+}
+
+.dropdown .btn {
+    color: rgba(0, 0, 0, .55) !important;
+}
+
+.dropdown .btn:hover {
+    color: rgba(87, 86, 86, 0.705) !important;
+}
+
+.dropdown-menu {
+    text-align  : right !important;
+    border-color: #cccccc56;
+}
+
+.dropdown-menu a {
+    font-size: 13px !important;
+    padding  : .7rem;
+}
+
+.dropdown-menu i {
+    font-size: 13px;
+    margin   : auto auto auto .5rem;
+}
+
+.dropdown-menu a,
+i {
+    color: #6e6d6d !important;
+}
+
+
+.dropdown-menu a:hover {
+    background-color: #dadadaa6;
+}
+
+
+.dropdown:hover>.dropdown-menu {
+    display: block;
+}
+
+.product-purchase-info .text-decoration-lt {
+    text-decoration: line-through !important;
+}
